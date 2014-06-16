@@ -1,0 +1,27 @@
+﻿table {
+    margin: 20px;
+    width: 350px;
+    font-size: 1.1em;
+}
+
+table, thead tr th, tfoot tr td {
+    border: 1px solid black;
+}
+
+    table tr td {
+        border: 1px solid black;
+    }
+
+tbody tr:first-of-type td {
+    font-weight: bold;
+    text-align: center;
+}
+
+tbody tr:not(:first-child) td {
+    padding-left: 5px;
+}
+
+tfoot tr td {
+    text-align: right;
+    padding-right: 5px;
+}

@@ -1,0 +1,104 @@
+﻿* {
+    margin: 0;
+    padding: 0;
+}
+
+body > table {
+    margin: 40px 80px;
+    border: 1px solid black;
+    width: 350px;
+    height: 400px;
+    font-size: 1.2em;
+}
+
+table input {
+    color: #0200EF;
+    width: 100%;
+    height: 100%;
+    font-size: 0.8em;
+    font-weight: 600;
+    border: 1px solid #959595;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    background: #f0f0f0;
+    background: -moz-linear-gradient(top, #f0f0f0 36%, #d2d2d2 63%, #d2d2d2 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(36%,#f0f0f0), color-stop(63%,#d2d2d2), color-stop(100%,#d2d2d2));
+    background: -webkit-linear-gradient(top, #f0f0f0 36%,#d2d2d2 63%,#d2d2d2 100%);
+    background: -o-linear-gradient(top, #f0f0f0 36%,#d2d2d2 63%,#d2d2d2 100%);
+    background: -ms-linear-gradient(top, #f0f0f0 36%,#d2d2d2 63%,#d2d2d2 100%);
+    background: linear-gradient(to bottom, #f0f0f0 36%,#d2d2d2 63%,#d2d2d2 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f0f0f0', endColorstr='#d2d2d2',GradientType=0 );
+}
+
+body > table > tbody > tr > td {
+    border: 1px solid black;
+    height: 80px;
+    padding: 3px;
+}
+
+body > table thead tr th {
+    border: 1px solid black;
+    font-size: 2.4em;
+    padding: 5px;
+}
+
+    body > table thead tr th:hover {
+        background-color: #e2a21d;
+    }
+
+        body > table thead tr th:hover input {
+            color: #000000;
+        }
+
+body > table tbody tr:nth-of-type(2) td {
+    width: 25%;
+}
+
+table tbody tr td table tr td {
+    height: 30px;
+    padding: 0px;
+}
+
+    table tbody tr td table tr td input[type="button"] {
+        font-size: 0.7em;
+    }
+
+table thead tr th {
+    height: 70px;
+}
+
+    table thead tr th input[type="button"] {
+        font-size: 0.5em;
+        font-weight: bold;
+    }
+
+body > table > tbody > tr:last-child td:first-child input[type="button"] {
+    text-align: right;
+    font-size: 1.2em;
+}
+
+body > table > tbody > tr td:hover {
+    background-color: #4cff00;
+}
+
+body > table > tbody > tr > td:hover > input[type="button"] {
+    background: #52ebf5;
+}
+
+table table tr td input:hover {
+    background: #ffd800;
+}
+
+body > table > tbody > tr:last-child td:first-child:hover input[type="button"] {
+    background-image: url(images/beer.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+body > table > tbody > tr:last-child td:last-child:hover input[type="button"] {
+    background-image: url(images/wc.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    color: transparent;
+}

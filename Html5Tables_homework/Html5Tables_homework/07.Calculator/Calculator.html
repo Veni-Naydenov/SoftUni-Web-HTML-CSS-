@@ -1,0 +1,39 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Calculator</title>
+    <link href="calculatorStyles.css" rel="stylesheet" />
+    <script src="calculatorScript.js"></script>
+</head>
+<body>
+    <form>
+        <input type="text" disabled ="disabled" id="display" placeholder="0" />
+        <div>
+            <input type="button" id="num1" name="calcInput" value="1" onclick="Global('num1')" />
+            <input type="button" id="num2" value="2" onclick="Global('num2')" />
+            <input type="button" id="num3" value="3" onclick="Global('num3')" />
+            <input type="button" id="plus" value="+" onclick="Global('plus')" />
+        </div>
+        <div>
+            <input type="button" id="num4" value="4" onclick="Global('num4')" />
+            <input type="button" id="num5" value="5" onclick="Global('num5')" />
+            <input type="button" id="num6" value="6" onclick="Global('num6')" />
+            <input type="button" id="minus" value="-" onclick="Global('minus')" />
+        </div>
+
+        <div>
+            <input type="button" id="num7" value="7" onclick="Global('num7')" />
+            <input type="button" id="num8" value="8" onclick="Global('num8')" />
+            <input type="button" id="num9" value="9" onclick="Global('num9')" />
+            <input type="button" id="multiply" value="*" onclick="Global('multiply')" />
+        </div>
+        <div>
+            <input type="button" id="num0" value="0" onclick="Global('num0')" />
+            <input type="button" id="clear" value="C" onclick="Global('clear')" />
+            <input type="button" id="dot" value="." onclick="Global('dot')" />
+            <input type="button" id="result" value="=" onclick="Global('result')" />
+            <input type="button" id="divide" value="/" onclick="Global('divide')" />
+        </div>
+    </form>
+</body>
+</html>

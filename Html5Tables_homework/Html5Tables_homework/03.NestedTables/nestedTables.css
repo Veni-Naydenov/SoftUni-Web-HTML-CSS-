@@ -1,0 +1,26 @@
+﻿table {
+    border: 1px solid black;
+    margin: 30px;
+}
+
+    table tr td {
+        border: 1px solid black;
+    }
+
+body > table tr td:first-of-type {
+    padding: 20px 10px;
+}
+
+table tr td a img {
+    width: 150px;
+    height: 150px;
+}
+
+table tr td table {
+    margin: 5px;
+}
+
+    table tr td table tr td {
+        font-size: 2.6em;
+        font-weight: bold;
+    }

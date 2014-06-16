@@ -1,0 +1,184 @@
+﻿
+body {
+    margin: 0;
+}
+
+table {
+    font-size: 0.9em;
+    background-color: #234465;
+    color: white;
+    width: 100%;
+}
+
+    table tr td {
+        text-align: right;
+    }
+
+    table tr:first-of-type td:first-of-type {
+        text-align: left;
+        padding-left: 60px;
+    }
+
+    table tr:last-of-type {
+        padding-left: 50px;
+    }
+
+    table tr td:last-of-type {
+        padding-right: 35px;
+    }
+
+    table tr:first-of-type td {
+        height: 20px;
+    }
+
+    table tr:last-of-type td {
+        text-align: right;
+        height: 20px;
+        vertical-align: middle;
+    }
+
+        table tr:last-of-type td a {
+            display: inline-block;
+            padding: 10px;
+        }
+
+        table tr:last-of-type td:first-of-type {
+            padding-left: 100px;
+        }
+
+    table tr td a img {
+        width: 200px;
+        height: 70px;
+        margin: 0;
+    }
+
+    table tr:first-of-type td > div {
+        display: inline-block;
+        padding: 10px;
+    }
+
+        table tr:first-of-type td > div:hover {
+            background-color: #2585ed;
+            -webkit-border-radius: 10px;
+            -moz-border-radius: 10px;
+            border-radius: 10px;
+        }
+
+    table tr td > span {
+        padding: 10px;
+    }
+
+        table tr td > span:hover {
+            background-color: #2585ed;
+            -webkit-border-radius: 10px;
+            -moz-border-radius: 10px;
+            border-radius: 10px;
+        }
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+table tr td form {
+    display: inline-block;
+}
+
+    table tr td form input {
+    }
+
+        table tr td form input[type="text"] {
+            width: 180px;
+            height: 20px;
+            -webkit-border-top-left-radius: 5px;
+            -webkit-border-bottom-left-radius: 5px;
+            -moz-border-radius-topleft: 5px;
+            -moz-border-radius-bottomleft: 5px;
+            border-top-left-radius: 5px;
+            border-bottom-left-radius: 5px;
+        }
+
+    table tr td form button {
+        width: 25px;
+        height: 25px;
+        vertical-align: middle;
+        margin-left: -3px;
+        margin-top: -2px;
+        border: none;
+        background-image: url(images/search.png);
+        background-repeat: no-repeat;
+        background-color: #f1f1f7;
+        -webkit-border-top-right-radius: 5px;
+        -webkit-border-bottom-right-radius: 5px;
+        -moz-border-radius-topright: 5px;
+        -moz-border-radius-bottomright: 5px;
+        border-top-right-radius: 5px;
+        border-bottom-right-radius: 5px;
+    }
+
+        table tr td form button:hover {
+            background-color: #2585ed;
+        }
+
+table tr:last-of-type td > a:hover {
+    background-color: #2585ed;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+}
+
+.onclick-menu {
+    position: relative;
+    display: inline-block;
+    padding: 5px;
+    outline: none;
+}
+
+    .onclick-menu:hover {
+        background-color: #2585ed;
+        -webkit-border-radius: 10px;
+        -moz-border-radius: 10px;
+        border-radius: 10px;
+    }
+
+    .onclick-menu:before {
+        content: "ABOUT THE UNIVERSITY▼";
+    }
+
+    .onclick-menu:focus .onclick-menu-content {
+        display: block;
+        background-color: #234465;
+        width: 200px;
+        text-align: left;
+        left: 0px;
+        margin-top: 14px;
+        outline: none;
+    }
+
+        .onclick-menu:focus .onclick-menu-content li {
+            list-style: none;
+            margin-left: -40px;
+            border-bottom: 1px solid #f1f1f7;
+        }
+
+    .onclick-menu:focus:active {
+        background-color: #ff6a00;
+    }
+
+    .onclick-menu:focus .onclick-menu-content li a {
+        font-size: 1em;
+        padding-top: 10px;
+        padding-left: 10px;
+        padding-bottom: 10px;
+    }
+
+    .onclick-menu:focus .onclick-menu-content li:hover a {
+        background-color: #ff6a00;
+        display: inline-block;
+        width: 92%;
+    }
+
+.onclick-menu-content {
+    position: absolute;
+    display: none;
+}
