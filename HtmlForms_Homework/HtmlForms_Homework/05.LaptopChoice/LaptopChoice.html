@@ -1,0 +1,129 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Laptop choice</title>
+    <link href="LaptopChoice.css" rel="stylesheet" />
+    <script>
+        function updateTextInput(val, id) {
+            document.getElementById(id).value = val;
+        }
+    </script>
+</head>
+<body>
+    <div id="wrapper">
+        <h1>Apple's Laptops (6)</h1>
+        <ul>
+            <li class="laptop">
+                <a href="https://www.apple.com/macbook-air/" target="_blank">
+                    <h2>Apple MacBook Air</h2>
+                    <p>11.6 inch/1.3GHz</p>
+                    <p>Haswell</p>
+                    <div class="price">
+                        <span>$</span>
+                        1,729.00
+                    </div>
+                </a>
+            </li>
+            <li class="laptopNew">
+                <a href="https://www.apple.com/macbook-air/" target="_blank">
+                    <h2>Apple MacBook Air</h2>
+                    <p>11.6 inch/1.4GHz</p>
+                    <p>Haswell</p>
+                    <div class="price">
+                        <span>$</span>
+                        1,829.00
+                    </div>
+                </a>
+            </li>
+            <li class="laptop">
+                <a href="https://www.apple.com/macbook-air/" target="_blank">
+                    <h2>Apple MacBook Air</h2>
+                    <p>13.6 inch/1.5GHz</p>
+                    <p>Haswell</p>
+                    <div class="price">
+                        <span>$</span>
+                        1,929.00
+                    </div>
+                </a>
+            </li>
+            <li class="laptop">
+                <a href="https://www.apple.com/macbook-air/" target="_blank">
+                    <h2>Apple MacBook Air</h2>
+                    <p>15.6 inch/1.3GHz</p>
+                    <p>Haswell</p>
+                    <div class="price">
+                        <span>$</span>
+                        2,129.00
+                    </div>
+                </a>
+            </li>
+            <li class="laptopNew">
+                <a href="https://www.apple.com/macbook-air/" target="_blank">
+                    <h2>Apple MacBook Air</h2>
+                    <p>11.6 inch/1.3GHz</p>
+                    <p>Haswell 256GB SSD</p>
+                    <div class="price">
+                        <span>$</span>
+                        2,229.00
+                    </div>
+                </a>
+            </li>
+            <li class="laptopPro">
+                <a href="https://www.apple.com/macbook-pro/" target="_blank">
+                    <h2>Apple MacBook Pro</h2>
+                    <p>11.6 inch/1.3GHz</p>
+                    <p>Bridge</p>
+                    <div class="price">
+                        <span>$</span>
+                        1,729.00
+                    </div>
+                </a>
+            </li>
+        </ul>
+        <div id="range-box">
+            <div class="category">
+                <p>Price</p>
+                <span>1700</span>
+                <span>2600</span>
+                <input type="range" name="rangeInput" min="1700" max="2600" onchange="updateTextInput(this.value,'indicate-price');" step="10" />
+                <input type="text" id="indicate-price" value="1300" />
+            </div>
+            <div class="category">
+                <p>Ram</p>
+                <span>2048</span>
+                <span>4096</span>
+                <input type="range" name="rangeInput" min="2048" max="4096" onchange="updateTextInput(this.value,'ram');" step="256" />
+                <input type="text" id="ram" value="3072" />
+            </div>
+            <div class="category">
+                <p>Disc</p>
+                <span>100GB</span>
+                <span>2000GB</span>
+                <input type="range" name="rangeInput" min="100" max="2000" onchange="updateTextInput(this.value,'disc');" step="20" />
+                <input type="text" id="disc" value="1124" />
+            </div>
+            <div class="category">
+                <p>Display</p>
+                <span>11.6</span>
+                <span>18.4</span>
+                <input type="range" name="rangeInput" min="11.6" max="18.4" onchange="updateTextInput(this.value,'display');" step="0.1" />
+                <input type="text" id="display" value="15.3" />
+            </div>
+            <div class="category">
+                <p>Weight</p>
+                <span>1</span>
+                <span>6</span>
+                <input type="range" name="rangeInput" min="1" max="6" onchange="updateTextInput(this.value,'weight');" step="0.5" />
+                <input type="text" id="weight" value="3" />
+            </div>
+            <div class="category">
+                <p>Warranty</p>
+                <span>12</span>
+                <span>60</span>
+                <input type="range" name="rangeInput" min="12" max="60" onchange="updateTextInput(this.value,'warranty');" step="1" />
+                <input type="text" id="warranty" value="36" />
+            </div>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,67 @@
+﻿* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url(images/wPressLogo.png);
+    background-repeat: no-repeat;
+    background-position: 10px 5px;
+    margin: 10px;
+}
+
+h1 {
+    padding-left: 70px;
+    padding-top: 5px;
+    font-size: 2.7em;
+    font-family: 'Calisto MT';
+    display: inline-block;
+    height: 50px;
+}
+
+    h1 a {
+        color: #23779C;
+        text-decoration: none;
+    }
+
+        h1 a:hover {
+            font-size: 1.1em;
+        }
+
+body h1 span {
+    color: #494949;
+}
+
+form > input:first-of-type {
+    width: 300px;
+}
+
+form input[type="file"] {
+    margin-top: 15px;
+}
+
+label:first-of-type {
+    vertical-align: central;
+}
+
+div#search-section label {
+    vertical-align: sub;
+}
+
+div#search-section input[type="search"] {
+    height: 30px;
+    display: inline-block;
+    margin-top: 15px;
+}
+
+div#search-section input[type="image"] {
+    display: inline-block;
+    vertical-align: sub;
+    position: relative;
+    top: 7px;
+    outline: none;
+}
+
+    div#search-section input[type="image"]:hover {
+        width: 40px;
+    }

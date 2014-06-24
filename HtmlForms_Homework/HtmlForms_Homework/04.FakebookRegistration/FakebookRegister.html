@@ -1,0 +1,92 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Fakebook register</title>
+    <link href="FakebookRegister.css" rel="stylesheet" />
+</head>
+<body>
+    <div id="wrapper">
+        <h1>fakebook <span>®</span></h1>
+        <h2>Registration</h2>
+        <p>It is safe and it will always be!</p>
+
+        <form id="left">
+            <fieldset>
+                <legend>None-Important Information</legend>
+                <div>
+                    <input type="text" placeholder="First Name" />
+                    <input type="text" placeholder="Last Name" />
+                </div>
+                <div>
+                    <input type="email" placeholder="Your Email" />
+                    <input type="tel" placeholder="Phone Number" />
+                </div>
+                <div>
+                    <input type="password" placeholder="Your Password" />
+                    <input type="url" placeholder="Website" />
+                </div>
+                <label for="birthday">Birthday</label>
+                <input type="datetime-local" id="birthday" />
+
+
+                <div class="gender">
+                    <input type="radio" name="gender" id="female" value="female" />
+                    <label for="female">Female</label>
+                    <input type="radio" name="gender" id="male" value="male" />
+                    <label for="male">Male</label>
+                    <input type="radio" name="gender" id="other" value="other" />
+                    <label for="other">Other</label>
+                </div>
+
+            </fieldset>
+            <input type="reset" value="Clear Form" />
+        </form>
+
+        <form id="right">
+            <fieldset>
+                <legend>Important Information *required</legend>
+                <div>
+                    <select>
+                        <option value="" disabled="disabled" selected="selected" id="disable">Country</option>
+                        <option value="Bulgaria">Bulgaria</option>
+                        <option value="Germany">Germany</option>
+                        <option value="Netherland">Netherland</option>
+                        <option value="England">England</option>
+                        <option value="Netherland">Netherland</option>
+                        <option value="Brasil">Brasil</option>
+                    </select>
+                    <input type="text" placeholder="Village" />
+                    <input type="text" placeholder="District" />
+                </div>
+                <div>
+                    <input type="text" placeholder="Street" />
+                    <input type="number" placeholder="Nr" />
+                    <input type="number" placeholder="Floor" />
+                    <input type="number" placeholder="Ap Nr" />
+                </div>
+                <div>
+                    <label for="color">Door Color</label>
+                    <input type="color" id="color" value="#FF80C0" />
+                    <input type="number" placeholder="Water meter Nr" />
+
+                    <select>
+                        <option value="" disabled="disabled" selected="selected">Aunt Panties's Size</option>
+                        <option value="Bulgaria">S</option>
+                        <option value="Germany">M</option>
+                        <option value="Netherland">L</option>
+                        <option value="England">XL</option>
+                        <option value="Netherland">XXXXXXXXL</option>
+                        <option value="Brasil">Go to the GYM</option>
+                    </select>
+                    <div>
+                        <label>More Personal Information</label>
+                        <textarea placeholder="Give Us More Information!!!"></textarea>
+                    </div>
+                </div>
+            </fieldset>
+
+            <input type="submit" value="Register" />
+        </form>
+    </div>
+</body>
+</html>

@@ -1,0 +1,163 @@
+﻿* {
+    margin: 0;
+    padding: 0;
+}
+
+div#wrapper {
+    display: inline-block;
+    width: 70%;
+    height: 600px;
+    border: 4px inset #1e98e8;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    border-radius: 30px;
+    margin: 10px;
+}
+
+body h1 {
+    color: #2C425A;
+    margin-top: 10px;
+    padding-left: 30px;
+}
+
+ul {
+    width: 760px;
+    margin-left: 10px;
+    margin-top: 5px;
+}
+
+    ul li {
+        list-style: none;
+        display: inline-block;
+        width: 190px;
+        height: 220px;
+        padding-left: 10px;
+        padding-top: 5px;
+        border: 3px solid white;
+    }
+
+        ul li:hover {
+            border: 3px solid #ED1C24;
+        }
+
+        ul li.laptop {
+            background-image: url(images/laptop1.png);
+            background-repeat: no-repeat;
+            background-size: 170px 100px;
+            background-position: 20px 80px;
+        }
+
+        ul li.laptopNew {
+            background-image: url(images/newLaptop.png);
+            background-repeat: no-repeat;
+            background-size: 170px 100px;
+            background-position: 20px 80px;
+        }
+
+        ul li.laptopPro {
+            background-image: url(images/proBook.png);
+            background-repeat: no-repeat;
+            background-size: 170px 100px;
+            background-position: 20px 80px;
+        }
+
+        ul li a {
+            display: inline-block;
+            border: 1px solid #D9EEFA;
+            width: 91%;
+            height: 91%;
+            -webkit-border-radius: 10px;
+            -webkit-border-bottom-right-radius: 0;
+            -moz-border-radius: 10px;
+            -moz-border-radius-bottomright: 0;
+            border-radius: 10px;
+            border-bottom-right-radius: 0;
+            text-decoration: none;
+            padding-top: 10px;
+            padding-left: 10px;
+        }
+
+            ul li a h2 {
+                color: #2C425A;
+                font-size: 1.2em;
+                font-weight: bold;
+            }
+
+            ul li a p {
+                color: #2C425A;
+                font-size: 1.1em;
+            }
+
+            ul li a div.price {
+                background-color: #2C425A;
+                color: white;
+                font-size: 1.1em;
+                width: 100px;
+                height: 30px;
+                position: relative;
+                top: 97px;
+                left: 73px;
+                padding-top: 10px;
+                text-align: center;
+                vertical-align: middle;
+                -webkit-border-top-left-radius: 10px;
+                -moz-border-radius-topleft: 10px;
+                border-top-left-radius: 10px;
+            }
+
+                ul li a div.price span {
+                    color: #e5bc1e;
+                    display: inline-block;
+                    margin-right: -5px;
+                }
+
+div#wrapper div#range-box {
+    display: inline-block;
+    width: 250px;
+    position: relative;
+    top: -490px;
+    left: 640px;
+    border: 1px solid #D9EEFA;
+    background-color: rgba(217, 238, 250, 0.3);
+    padding-left: 5px;
+    padding-bottom: 40px;
+}
+
+    div#wrapper div#range-box input[type="text"] {
+        width: 40px;
+        border: none;
+        background: center #000000;
+        border: 2px solid #ED1C24;
+        color: #13d458;
+        font-weight: bold;
+        text-align: center;
+        position: relative;
+        top: -5px;
+    }
+
+div#range-box p {
+    text-align: center;
+    margin-bottom: 5px;
+    padding-top: 10px;
+    padding-right: 40px;
+}
+
+div#range-box span {
+    color: #2C425A;
+    display: inline-block;
+    width: 40px;
+    position: relative;
+    top: 0px;
+}
+
+    div#range-box span:first-of-type {
+        left: 0px;
+    }
+
+    div#range-box span:last-of-type {
+        left: 130px;
+    }
+
+div#range-box input[type="range"] {
+    width: 200px;
+}
