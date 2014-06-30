@@ -1,0 +1,219 @@
+﻿* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Calibri;
+}
+
+section {
+    border-top: 7px dotted #FFFF00;
+    border-right: 15px solid #008000;
+    border-bottom: 10px double #0000FF;
+    border-left: 7px dashed #FF0000;
+    height: 295px;
+    width: 750px;
+    margin-left: 12px;
+    margin-top: 5px;
+    box-shadow: 20px 20px 8px #3F3F3F;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+    section header {
+        text-align: center;
+        padding-top: 10px;
+    }
+
+        section header h1 {
+            font-size: 3.8em;
+            font-weight: normal;
+            text-shadow: 15px 10px 13px #9d9999;
+        }
+
+        section header:hover h1 {
+            font-size: 3.8em;
+            font-weight: normal;
+            text-shadow: 15px 10px 13px #008000;
+        }
+
+    section div {
+        border-radius: 150px;
+        text-align: center;
+        -moz-box-sizing: border-box;
+        -webkit-box-sizing: border-box;
+        box-sizing: border-box;
+    }
+
+    section > div {
+        height: 140px;
+        width: 92%;
+        border: 3px solid #0000FF;
+        margin-left: 4%;
+        margin-top: 25px;
+    }
+
+        section > div > div {
+            border: 3px solid #008000;
+            height: 100%;
+            width: 100%;
+        }
+
+            section > div > div > div {
+                border: 3px solid #FFFF00;
+                height: 100%;
+            }
+
+                section > div > div > div > div {
+                    border: 3px solid #FF0000;
+                    height: 100%;
+                }
+
+    section span {
+        display: inline-block;
+    }
+
+    section > div > div > div > div > span:first-of-type {
+        -moz-box-sizing: border-box;
+        -webkit-box-sizing: border-box;
+        box-sizing: border-box;
+        background-color: rgba(145,145,145,0.8);
+        height: 95px;
+        width: 165px;
+        border-radius: 80px;
+        padding: 5px;
+        position: absolute;
+        top: 45px;
+        left: 695px;
+        line-height: 30px;
+        font-size: 1.9em;
+    }
+
+        section > div > div > div > div > span:first-of-type:hover {
+            background-color: rgba(14,145,145,0.9);
+            width: 185px;
+            height: 115px;
+            font-size: 2.1em;
+        }
+
+            section > div > div > div > div > span:first-of-type:hover a {
+                color: #f34db8;
+                border: 3px dashed #f34db8;
+            }
+
+        section > div > div > div > div > span:first-of-type a {
+            -moz-box-sizing: border-box;
+            -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+            display: inline-block;
+            height: 100%;
+            width: 100%;
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+            border: 3px dashed white;
+            border-radius: 100px;
+            padding-top: 10px;
+        }
+
+    section > div > div > div > div span.cool-bigger {
+        background-color: rgba(145,145,145,0.8);
+        height: 50px;
+        width: 50px;
+        border-radius: 50%;
+        font-size: 3em;
+        position: absolute;
+        top: 120px;
+        left: 635px;
+        -moz-box-sizing: border-box;
+        -webkit-box-sizing: border-box;
+        box-sizing: border-box;
+    }
+
+        section > div > div > div > div span.cool-bigger:hover {
+            background-color: rgba(15,130,145,0.8);
+            width: 60px;
+            height: 60px;
+            padding-top: 3px;
+        }
+
+
+
+    section div > div > div > div > span span.inner {
+        height: 80%;
+        width: 80%;
+        border: 3px dashed white;
+        border-radius: 50%;
+        -moz-box-sizing: border-box;
+        -webkit-box-sizing: border-box;
+        box-sizing: border-box;
+        margin: 2.5px;
+    }
+
+    section div > div > div > div > span.cool-smaller {
+        background-color: rgba(145,145,145,0.8);
+        height: 35px;
+        width: 35px;
+        border-radius: 50%;
+        font-size: 3em;
+        position: absolute;
+        top: 170px;
+        left: 585px;
+        -moz-box-sizing: border-box;
+        -webkit-box-sizing: border-box;
+        box-sizing: border-box;
+    }
+
+        section div > div > div > div > span.cool-smaller:hover {
+            background-color: rgba(15,130,145,0.8);
+            width: 45px;
+            height: 45px;
+        }
+
+            section div > div > div > div > span.cool-smaller:hover span {
+                position: absolute;
+                right: 5px;
+                top: 5px;
+            }
+
+        section div > div > div > div > span.cool-smaller span {
+            height: 70%;
+            width: 70%;
+            border: 3px dashed white;
+            border-radius: 50%;
+            -moz-box-sizing: border-box;
+            -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+            position: absolute;
+            right: 3px;
+            top: 2px;
+        }
+
+    section div > div > div > div > p {
+        font-size: 1.7em;
+        text-shadow: 15px 10px 13px #9d9999;
+        margin-top: 15px;
+    }
+
+        section div > div > div > div > p:hover {
+            text-shadow: 15px 10px 13px #0000FF;
+        }
+
+    section div div div div span.btn {
+        background-color: #D8921A;
+        height: 25px;
+        font-size: 1.3em;
+        margin-top: 18px;
+        padding-left: 20px;
+        padding-right: 20px;
+        border: 4px outset #FFA500;
+        margin-right: 5px;
+    }
+
+        section div div div div span.btn:hover {
+            background-color: #0000FF;
+            border: 4px outset #eada20;
+            color: white;
+        }

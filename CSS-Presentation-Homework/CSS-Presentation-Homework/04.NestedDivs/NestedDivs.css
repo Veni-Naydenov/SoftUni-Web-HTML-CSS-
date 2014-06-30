@@ -1,0 +1,16 @@
+﻿
+body {
+    width: 1350px;
+}
+
+div {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    height: 100%;
+    width: 95%;
+    border: 1px solid #234465;
+    background: #FF9C00;
+    padding-right: 0px;
+    border-radius: 90px;
+}

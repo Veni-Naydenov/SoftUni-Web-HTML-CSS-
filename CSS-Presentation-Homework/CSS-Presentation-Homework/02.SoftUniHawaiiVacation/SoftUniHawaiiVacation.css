@@ -1,0 +1,101 @@
+﻿* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+}
+
+@font-face {
+    font-family: Animated;
+    src: url('images/Animated.ttf') format('truetype');
+}
+
+div#back {
+    width: 900px;
+    height: 600px;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    background: -webkit-radial-gradient(170px 120px, circle,#F9F9F9 0%,#F9F7BB 8%,#F1F6FC 13%,#006EDB 60% );
+}
+
+    div#back p {
+        font-family: Animated;
+        color: #FDBC21;
+        font-size: 3.1em;
+        position: absolute;
+        left: 470px;
+        top: 15px;
+    }
+
+    div#back div#container {
+        width: 100%;
+        height: 100%;
+        -moz-box-sizing: border-box;
+        -webkit-box-sizing: border-box;
+        box-sizing: border-box;
+        background-image: url(images/HawaiiBackground.png);
+    }
+
+        div#back div#container div {
+            display: inline-block;
+            position: absolute;
+        }
+
+            div#back div#container div#VladoG {
+                /*border:1px solid black;*/
+                width: 270px;
+                height: 350px;
+                background-image: url(images/VladoGHula.png);
+                background-repeat: no-repeat;
+                top: 221px;
+                left: 41px;
+            }
+
+            div#back div#container div#Petia {
+                width: 270px;
+                height: 350px;
+                background-image: url(images/PetiaHula.png);
+                background-repeat: no-repeat;
+                top: 191px;
+                left: 181px;
+            }
+
+            div#back div#container div#Tedi {
+                width: 270px;
+                height: 350px;
+                background-image: url(images/TediHula.png);
+                background-repeat: no-repeat;
+                top: 361px;
+                left: 261px;
+            }
+
+            div#back div#container div#Nakov {
+                width: 270px;
+                height: 400px;
+                background-image: url(images/NakovHula.png);
+                background-repeat: no-repeat;
+                top: 156px;
+                left: 411px;
+            }
+
+            div#back div#container div#Alex {
+                width: 270px;
+                height: 400px;
+                background-image: url(images/AlexHula.png);
+                background-repeat: no-repeat;
+                top: 202px;
+                left: 491px;
+                z-index: 10;
+            }
+
+            div#back div#container div#VladoK {
+                width: 270px;
+                height: 400px;
+                background-image: url(images/VladoKHula.png);
+                background-repeat: no-repeat;
+                top: 232px;
+                left: 671px;
+                z-index: 1;
+            }
