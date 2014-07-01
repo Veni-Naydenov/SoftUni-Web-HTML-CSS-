@@ -1,2 +1,204 @@
-﻿body {
+﻿* {
+    margin: 0;
+    padding: 0;
 }
+
+body {
+    padding: 2px;
+    font-family: Calibri;
+}
+
+form {
+    background-image: url(image/formBackground.jpg);
+    background-repeat: repeat-y;
+    display: inline-block;
+    height: 640px;
+    width: 377px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    padding-left: 18px;
+    padding-top: 10px;
+}
+
+    form > div div {
+        display: inline-block;
+    }
+
+    form > div > label {
+        color: white;
+        display: block;
+        margin-bottom: 10px;
+        font-size: 1em;
+        font-weight: bold;
+        margin-top: 5px;
+    }
+
+    form > div > div.border {
+        border: 1px solid #C8D5E3;
+        width: 339px;
+        height: 35px;
+        margin-bottom: 3px;
+        -webkit-border-radius: 5px;
+        -moz-border-radius: 5px;
+        border-radius: 5px;
+        background-color: rgba(255,255,255,0.3);
+    }
+
+        form > div > div.border label {
+            font-size: 0.9em;
+        }
+
+    form div div label {
+        display: inline-block;
+        padding-top: 10px;
+        padding-left: 10px;
+    }
+
+    form div div.border input {
+        width: 170px;
+        height: 20px;
+        border: none;
+        padding-left: 5px;
+        padding-bottom: 2px;
+        float: right;
+        margin-right: 60px;
+        margin-top: 7px;
+        -webkit-border-radius: 3px;
+        -moz-border-radius: 3px;
+        border-radius: 3px;
+    }
+
+        form div div.border input:active {
+            font-size: 1.1em;
+            color: #228dd4;
+            font-weight: normal;
+            border: 2px solid #ffd800;
+        }
+
+        form div div.border input:hover {
+            font-size: 1em;
+            color: white;
+            background-color: black;
+            font-weight: normal;
+            border: 2px solid #ffd800;
+            -webkit-border-radius: 5px;
+            -moz-border-radius: 5px;
+            border-radius: 5px;
+        }
+
+
+    form div div.border:hover {
+        background-color: rgba(0,250,255,0.4);
+    }
+
+        form div div.border:hover label {
+            color: #ffd800;
+        }
+
+    /*----------address----------*/
+    form div#address div.border-address {
+        width: 339px;
+        height: 100px;
+        border: 1px solid #C8D5E3;
+        -webkit-border-radius: 5px;
+        -moz-border-radius: 5px;
+        border-radius: 5px;
+        background-color: rgba(255,255,255,0.3);
+        margin-bottom: 2px;
+    }
+
+        form div#address div.border-address:hover {
+            background-color: rgba(0,250,255,0.4);
+        }
+
+            form div#address div.border-address:hover label {
+                color: #ffd800;
+            }
+
+
+
+        form div#address div.border-address textarea {
+            height: 80px;
+            float: right;
+            margin-right: 60px;
+            margin-top: 7px;
+            -webkit-border-radius: 5px;
+            -moz-border-radius: 5px;
+            border-radius: 5px;
+        }
+
+            form div#address div.border-address textarea:hover {
+                font-size: 1em;
+                color: white;
+                background-color: black;
+                font-weight: normal;
+                border: 2px solid #ffd800;
+                -webkit-border-radius: 5px;
+                -moz-border-radius: 5px;
+                border-radius: 5px;
+            }
+
+div.border-cards:hover > p {
+    color: #ffd800;
+}
+
+form div#payment div.border-cards {
+    width: 339px;
+    height: 60px;
+    border: 1px solid #C8D5E3;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    background-color: rgba(255,255,255,0.3);
+    margin-bottom: 1px;
+    background-image: url(image/visa.png), url(image/amex.png), url(image/masterCard.png);
+    background-repeat: no-repeat;
+    background-size: 25px 15px;
+    background-position: 35px 28px,125px 28px,220px 28px;
+}
+
+    form div#payment div.border-cards:hover {
+        background-color: rgba(0,250,255,0.4);
+    }
+
+        form div#payment div.border-cards:hover label {
+            color: #ffd800;
+            font-weight: bold;
+        }
+
+    form div#payment div.border-cards input {
+        display: inline-block;
+        width: 10px;
+        margin-left: 20px;
+    }
+
+    form div#payment div.border-cards label {
+        padding-left: 28px;
+        font-size: 0.8em;
+    }
+
+form button {
+    border: none;
+    color: white;
+    background-color: #04152F;
+    width: 90px;
+    height: 25px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    border-radius: 15px;
+    font-size: 0.8em;
+    margin-left: 35%;
+    margin-top: 5px;
+}
+
+    form button:hover {
+        background-color: white;
+        color: black;
+        font-size: 0.6em;
+        font-weight: bolder;
+        border: 2px solid #4cff00;
+    }

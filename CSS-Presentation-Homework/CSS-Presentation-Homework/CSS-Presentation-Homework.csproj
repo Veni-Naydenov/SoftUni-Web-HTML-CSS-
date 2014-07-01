@@ -68,8 +68,14 @@
     <Content Include="02.SoftUniHawaiiVacation\images\VladoKHula.png" />
     <Content Include="02.SoftUniHawaiiVacation\SoftUniHawaiiVacation.css" />
     <Content Include="02.SoftUniHawaiiVacation\SoftUniHawaiiVacation.html" />
+    <Content Include="03.StylingHtmlForm\image\formBackground.jpg" />
+    <Content Include="03.StylingHtmlForm\StylingHtmlForm.css" />
+    <Content Include="03.StylingHtmlForm\StylingHtmlForm.html" />
     <Content Include="04.NestedDivs\NestedDivs.css" />
     <Content Include="04.NestedDivs\NestedDivs.html" />
+    <Content Include="05.ProgrammerCalculator\images\Calculator.png" />
+    <Content Include="05.ProgrammerCalculator\images\Fon.png" />
+    <Content Include="05.ProgrammerCalculator\images\toprightButtons.png" />
     <Content Include="05.ProgrammerCalculator\ProgrammerCalculator.css" />
     <Content Include="05.ProgrammerCalculator\ProgrammerCalculator.html" />
     <Content Include="Web.config" />
