@@ -44,12 +44,11 @@ div#wrapper {
 
 
 #wrapper header nav {
+    text-align:right;
 }
 
     #wrapper header nav ul {
         width: 100%;
-        float: right;
-        clear: left;
         margin-top: -15px;
     }
 
@@ -60,8 +59,6 @@ div#wrapper {
             border: 1px solid black;
             padding: 5px 10px;
             margin-right: 10px;
-            float: right;
-            clear: left;
         }
 
             #wrapper header nav ul li a {
